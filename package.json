@@ -1,0 +1,26 @@
+{
+  "name": "practice-package",
+  "version": "1.0.0",
+  "description": "for the green",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-kirby/npm-lab-london-web-080519.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george-kirby/npm-lab-london-web-080519/issues"
+  },
+  "homepage": "https://github.com/george-kirby/npm-lab-london-web-080519#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
